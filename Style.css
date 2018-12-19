@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .button {
@@ -51,7 +51,7 @@ body {
     box-shadow: 0 9px #998C8B;
     margin: 20px;
     font-weight: bold;
-    font-size: 110%;
+    font-size: 125%;
 }
 
 .button:hover {
@@ -62,4 +62,46 @@ body {
     background-color: #630802;
     box-shadow: 0 5px #998C8B;
     transform: translateY(4px);
+}
+
+.Title2 {
+    color: white;
+    text-align: center;
+}
+
+.textoScroll {
+    background-color: #000000b3;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    height: 260px;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+}
+
+.Home2 {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+}
+
+#CalendarioClases {
+    background-color: #000000de;
+    text-align: center;
+    margin: 10px;
+}
+
+#calendarioClases2 {
+    color: white;
+    text-align: center;
+
+}
+
+th {
+    text-align: center;
 }
