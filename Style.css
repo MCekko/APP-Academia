@@ -69,8 +69,18 @@ body {
     text-align: center;
 }
 
-.textoScroll {
+#About1 {
     background-color: #000000b3;
+    margin: 10px;
+}
+
+#About2 {
+    background-color: #000000b3;
+    margin: 10px;
+}
+
+
+.textoScroll {
     color: white;
     text-align: center;
     margin: 10px;
@@ -91,7 +101,7 @@ body {
 }
 
 #CalendarioClases {
-    background-color: #000000de;
+    background-color: #000000b3;
     text-align: center;
     margin: 10px;
 }
@@ -103,5 +113,23 @@ body {
 }
 
 th {
+    text-align: center;
+}
+
+#CalendarioTorneos {
+    background-color: #000000b3;
+    text-align: center;
+    margin: 10px;
+}
+
+#calendarioTorneos2 {
+    color: white;
+    text-align: center;
+
+}
+
+a,
+ul {
+    color: white;
     text-align: center;
 }

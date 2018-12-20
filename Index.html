@@ -76,6 +76,29 @@
                     </tr>
                 </tbody>
             </table>
+            <a class="Home"><img class="Home2" src="home-icon-silhouette.png"> </a>
+        </div>
+        <div id="CalendarioTorneos">
+            <h2 class="Title2">Calendario de Torneos</h2>
+            <table id="calendarioTorneos2" class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th v-for="torneo in Torneos">{{torneo}}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td v-for="juegos in Torneos2">{{juegos}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 class="Title2">Torneos Exteriores</h2>
+            <ul>
+                <li v-for="(torneo,index) in TorneoExterior2"><a :data-index="index">{{torneo}}</a></li>
+            </ul>
+            <a class="Home"><img class="Home2" src="home-icon-silhouette.png"> </a>
+        </div>
+        <div id="CalendarioTorneosExteriores">
 
         </div>
     </div>
