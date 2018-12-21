@@ -83,12 +83,12 @@
             <table id="calendarioTorneos2" class="table table-condensed">
                 <thead>
                     <tr>
-                        <th v-for="torneo in Torneos">{{torneo}}</th>
+                        <th v-for="juegos in Torneos2">{{juegos}}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td v-for="juegos in Torneos2">{{juegos}}</td>
+                        <td v-for="torneo in Torneos">{{torneo}}</td>
                     </tr>
                 </tbody>
             </table>
@@ -120,4 +120,5 @@
         firebase.initializeApp(config);
 
     </script>
+
 </body>
